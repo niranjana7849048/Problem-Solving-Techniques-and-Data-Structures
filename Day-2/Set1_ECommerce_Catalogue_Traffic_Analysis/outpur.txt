@@ -1,0 +1,96 @@
+ECOMMERCE CATALOGUE AND TRAFFIC ANALYSIS
+
+TASK 1: BINARY SEARCH TREE
+Inorder traversal:
+Appliances Automotive Beauty Books Electronics Fashion Footwear Furniture Gaming Groceries Home Jewellery Sports Stationery Toys 
+Preorder traversal:
+Electronics Books Beauty Automotive Appliances Fashion Home Furniture Footwear Groceries Gaming Sports Jewellery Toys Stationery 
+Postorder traversal:
+Appliances Automotive Beauty Books Footwear Gaming Groceries Furniture Jewellery Stationery Toys Sports Home Fashion Electronics 
+
+Search Electronics: True
+Search Pharmacy: False
+
+TASK 2: HASHING AND HASHMAP
+Hash table: [[['SKU300', 'Keyboard']], [], [], [['SKU100', 'Laptop']], [['SKU200', 'Mobile']]]
+SKU100 lookup: Laptop
+Collision demonstrated: False
+Total SKUs: 100000
+Lookups performed: 10000
+Built-in dictionary lookup time: 0.004314
+Custom hash table lookup time: 2.748644
+
+TASK 3: GRAPH AND DEPLOYMENT DEPENDENCIES
+Dependency graph: {'cart': ['pricing'], 'pricing': ['inventory'], 'inventory': ['payment'], 'payment': ['notification'], 'notification': []}
+BFS traversal: ['cart', 'pricing', 'inventory', 'payment', 'notification']
+DFS traversal: ['cart', 'pricing', 'inventory', 'payment', 'notification']
+Valid deployment order: ['cart', 'pricing', 'inventory', 'payment', 'notification']
+Circular dependency detected: True
+
+TASK 4: SLIDING WINDOW
+Total hourly data points: 1440
+Window duration: 180 minutes
+Busiest window starts at minute: 118
+Busiest window ends at minute: 298
+Maximum requests in 3-hour window: 10547
+Average requests per minute: 58.59
+
+TASK 5: TWO POINTERS
+Sorted order values: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+Gift card value: 100
+Matching pairs:
+(10, 90)
+(20, 80)
+(30, 70)
+(40, 60)
+
+ALL FIVE TASKS COMPLETED
+PS C:\Users\niran\OneDrive\Desktop\Hexaware_Training_Assignments\Day-2\Set1_ECommerce_Catalogue_Traffic_Analysis> ^C
+PS C:\Users\niran\OneDrive\Desktop\Hexaware_Training_Assignments\Day-2\Set1_ECommerce_Catalogue_Traffic_Analysis> & 'C:\Users\niran\AppData\Local\Programs\Python\Python312\python.exe' 'c:/Users/niran/OneDrive/Desktop/Hexaware_Training_Assignments/Day-2/Set1_ECommerce_Catalogue_Traffic_Analysis/ecommerce_catalogue.py'
+ECOMMERCE CATALOGUE AND TRAFFIC ANALYSIS
+
+TASK 1: BINARY SEARCH TREE
+Inorder traversal:
+Appliances Automotive Beauty Books Electronics Fashion Footwear Furniture Gaming Groceries Home Jewellery Sports Stationery Toys 
+Preorder traversal:
+Electronics Books Beauty Automotive Appliances Fashion Home Furniture Footwear Groceries Gaming Sports Jewellery Toys Stationery 
+Postorder traversal:
+Appliances Automotive Beauty Books Footwear Gaming Groceries Furniture Jewellery Stationery Toys Sports Home Fashion Electronics 
+
+Search Electronics: True
+Search Pharmacy: False
+
+TASK 2: HASHING AND HASHMAP
+Hash table: [[['SKU300', 'Keyboard']], [], [], [['SKU100', 'Laptop'], ['SKU105', 'Mobile']], []]
+SKU100 lookup: Laptop
+Collision demonstrated: True
+Total SKUs: 100000
+Lookups performed: 10000
+Built-in dictionary lookup time: 0.001878
+Custom hash table lookup time: 2.592912
+
+TASK 3: GRAPH AND DEPLOYMENT DEPENDENCIES
+Dependency graph: {'cart': ['pricing'], 'pricing': ['inventory'], 'inventory': ['payment'], 'payment': ['notification'], 'notification': []}
+BFS traversal: ['cart', 'pricing', 'inventory', 'payment', 'notification']
+DFS traversal: ['cart', 'pricing', 'inventory', 'payment', 'notification']
+Valid deployment order: ['cart', 'pricing', 'inventory', 'payment', 'notification']
+Circular dependency detected: True
+
+TASK 4: SLIDING WINDOW
+Total hourly data points: 1440
+Window duration: 180 minutes
+Busiest window starts at minute: 118
+Busiest window ends at minute: 298
+Maximum requests in 3-hour window: 10547
+Average requests per minute: 58.59
+
+TASK 5: TWO POINTERS
+Sorted order values: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+Gift card value: 100
+Matching pairs:
+(10, 90)
+(20, 80)
+(30, 70)
+(40, 60)
+
+ALL FIVE TASKS COMPLETED

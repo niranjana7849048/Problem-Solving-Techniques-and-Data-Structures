@@ -1,0 +1,43 @@
+INSURANCE CLAIMS PROCESSING
+
+TASK 1: BINARY SEARCH TREE
+Inorder traversal:
+101 102 104 105 107 108 110 
+Preorder traversal:
+105 102 101 104 108 107 110 
+Postorder traversal:
+101 104 102 107 110 108 105 
+
+Search claim 104: True
+Search claim 115: False
+Sorted order is produced by inorder traversal.
+Empty BST search: False
+
+TASK 2: HASHING AND DUPLICATE CLAIMS
+C1001 Duplicate: False
+C1002 Duplicate: True
+C1003 Duplicate: False
+C1004 Duplicate: False
+Matching claims for POL123: ['C1001', 'C1002']
+Collision demonstrated: True
+Empty hash lookup: []
+
+TASK 3: CLAIM APPROVAL GRAPH
+Shortest path: Registration -> Assessment -> Settlement
+Cycle detected: False
+Cycle detected in cyclic graph: True
+
+TASK 4: SLIDING WINDOW
+Daily claims: [85, 120, 135, 110, 95, 130, 145, 108, 99, 115, 125, 140]
+Threshold: More than 100 claims
+Longest consecutive run: 3 days
+Day positions: 2 to 4
+Empty input result: (0, -1, -1)
+
+TASK 5: TWO-POINTER MERGE
+Region A: [1001, 1003, 1007, 1010]
+Region B: [1002, 1004, 1008, 1012]
+Merged sorted claims: [1001, 1002, 1003, 1004, 1007, 1008, 1010, 1012]
+Empty list merge: [1001, 1002]
+
+ALL TASKS COMPLETED

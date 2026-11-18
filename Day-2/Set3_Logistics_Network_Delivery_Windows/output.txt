@@ -1,0 +1,35 @@
+LOGISTICS NETWORK AND DELIVERY WINDOWS
+
+TASK 1: BINARY SEARCH TREE
+Hub codes: ['CHN', 'BLR', 'DEL', 'HYD', 'MUM', 'PUN', 'KOL']
+Search BLR: True
+Search CBE: False
+BST height: 5
+Height with sorted input: 7
+Height with unsorted input: 5
+Empty BST height: 0
+
+TASK 2: HASHMAP PARCEL TRACKING
+Parcel tracking: {'P1001': ['CHN', 'CHN', 'DEL'], 'P1002': ['BLR', 'BLR'], 'P1003': ['HYD'], 'P1004': ['MUM']}
+Duplicate scans: [('P1001', 'CHN'), ('P1002', 'BLR')]
+
+TASK 3: LOGISTICS GRAPH
+Shortest path from CHN to KOL: CHN -> HYD -> DEL -> KOL
+Fewest hops: 3
+Hubs reachable from CHN: ['BLR', 'CHN', 'DEL', 'HYD', 'KOL', 'MUM', 'PUN']
+
+TASK 4: SLIDING WINDOW
+Hourly parcel counts: [120, 135, 150, 160, 140, 180, 200, 190, 170, 155, 145, 130]
+Best 4-hour window: Hour 6 to Hour 9
+Total parcels: 740
+Highest average: 185.0
+Empty input result: None
+
+TASK 5: TWO-POINTER PALINDROME
+Hub code: CHN-NHC
+Is palindrome: True
+Hub code: CHN-BLR
+Is palindrome: False
+Empty code palindrome: True
+
+ALL TASKS COMPLETED
