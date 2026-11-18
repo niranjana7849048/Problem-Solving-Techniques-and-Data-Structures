@@ -48,3 +48,52 @@ python hospital_appointment_desk.py
 
 ## Outcome
 Implemented and tested fundamental problem-solving techniques and data structures through retail, banking, and hospital management scenarios. Compared algorithm performance using execution time, comparisons, and swap counts.
+
+
+# Day 2 – Problem Solving Techniques and Data Structures – II
+
+## Overview
+This day focuses on advanced data structures and problem-solving techniques, including Trees, Hashing, Graphs, Sliding Window and Two Pointers.
+
+## Sets Completed
+
+### Set 1 – E-Commerce Catalogue and Traffic Analysis
+- Binary Search Tree for product categories.
+- Hashing and HashMap for SKU lookup.
+- Graph traversal for microservice dependencies.
+- Sliding Window for busiest traffic periods.
+- Two Pointers for gift-card pair identification.
+
+### Set 2 – Insurance Claims Processing
+- BST for claim ID management.
+- Hashing for duplicate claim detection.
+- BFS and DFS for claim approval workflows.
+- Sliding Window for consecutive high-claim days.
+- Two Pointers for merging sorted claim lists.
+
+### Set 3 – Logistics Network and Delivery Windows
+- BST for logistics hub management.
+- HashMap for parcel tracking.
+- BFS and DFS for hub connectivity and shortest routes.
+- Sliding Window for peak parcel volume.
+- Two Pointers for palindrome validation.
+
+## Technologies Used
+- Python 3
+- Data Structures and Algorithms
+
+## Deliverables
+- Python source code for all three sets.
+- Execution outputs.
+- Decision and complexity tables.
+- Test cases and algorithm explanations.
+
+## Key Concepts Learned
+- Binary Search Trees
+- Hash Tables and HashMaps
+- Graphs, BFS and DFS
+- Sliding Window
+- Two Pointers
+- Time and Space Complexity
+
+
